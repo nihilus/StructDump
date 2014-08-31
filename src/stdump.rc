@@ -1,0 +1,145 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SETUPDLG DIALOGEX 0, 0, 343, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "StDump 0.4 (c) <lallousx86@yahoo.com>"
+FONT 8, "Courier New", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "Types to output",IDC_STATIC,7,2,159,162
+    LISTBOX         IDC_LB_STRUCT,10,12,152,148,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Output file:",IDC_STATIC,7,169,38,8
+    EDITTEXT        IDC_EDT_OUTPUT,47,166,205,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_BROWSE,257,166,16,14
+    GROUPBOX        "Output language",IDC_STATIC,173,2,163,23
+    CONTROL         "C++",IDC_RAD_CPP,"Button",BS_AUTORADIOBUTTON | WS_GROUP,175,13,31,10
+    CONTROL         "Delp&hi",IDC_RAD_DELPHI,"Button",BS_AUTORADIOBUTTON,202,12,35,10
+    PUSHBUTTON      "&Add",IDC_BTN_ADD,173,30,65,14
+    PUSHBUTTON      "Add all &user types",IDC_BTN_ADDUSER,256,30,80,14
+    PUSHBUTTON      "C&lear sel",IDC_BTN_CLEAR,173,51,65,14
+    PUSHBUTTON      "C&onfig",IDC_BTN_EDITCFG,173,94,65,14
+    PUSHBUTTON      "Outpu&t",IDC_BTN_OUTPUT,301,166,35,14
+    ICON            IDI_ICON1,IDC_STATIC,318,143,20,20
+    PUSHBUTTON      "&Delete from DB",IDC_BTN_DELETE_FROM_IDA_DB,256,51,80,14
+    PUSHBUTTON      "&Copy",IDC_BTN_COPY,256,72,80,14
+    PUSHBUTTON      "&Paste",IDC_BTN_PASTE,173,72,65,14
+    PUSHBUTTON      "&Make table",IDC_BTN_MAKETABLE,256,94,80,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_SETUPDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        VERTGUIDE, 15
+        VERTGUIDE, 117
+        VERTGUIDE, 173
+        VERTGUIDE, 202
+        VERTGUIDE, 256
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 180
+        HORZGUIDE, 65
+        HORZGUIDE, 86
+        HORZGUIDE, 108
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_MAKE_TABLE MENU 
+BEGIN
+    POPUP "Languages"
+    BEGIN
+        MENUITEM "C++",                         ID_LANGUAGES_C
+        MENUITEM "Delphi",                      ID_LANGUAGES_DELPHI
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
