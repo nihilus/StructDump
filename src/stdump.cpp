@@ -159,7 +159,7 @@ void idaapi run(int arg)
   if (arg < 0)
     return;
 
-  msg("StDump v0.4 " __DATE__ " " __TIME__ " <lallousx86@yahoo.com>\n");
+  msg("StDump v0.5 " __DATE__ " " __TIME__ " <lallousx86@yahoo.com>\n");
 
   switch (arg)
   {
