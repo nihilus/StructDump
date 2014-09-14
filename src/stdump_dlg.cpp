@@ -1,8 +1,9 @@
+#include "util.h"
 #include "stdump_emit.h"
 #include "stdump_dlg.h"
-#include "util.h"
 #include "resource.h"
 #include "struct_serialize.h"
+#include <Shellapi.h>
 
 emit_data_defs_lang g_emit_struct_defs[EMITLANG_MAX] =
 {

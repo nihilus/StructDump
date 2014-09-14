@@ -1,6 +1,7 @@
 #ifndef __01092007__UTILS__
 #define __01092007__UTILS__
 
+#include <ObjBase.h>
 #include <windows.h>
 #include <stdlib.h>
 #include <tchar.h>

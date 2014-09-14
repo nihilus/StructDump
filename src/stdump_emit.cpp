@@ -1,6 +1,6 @@
+#include "util.h"
 #include "stdump_emit.h" // Emit code
 #include <sstream>
-#include "util.h"
 #include "struct_serialize.h"
 
 /*!
